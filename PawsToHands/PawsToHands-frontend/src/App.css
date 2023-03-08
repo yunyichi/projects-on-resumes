@@ -1,0 +1,127 @@
+
+.App {
+  background-color: #efebe5;
+  color: #ff8075;
+  min-height: 100vh;
+  padding-bottom: 100px;
+  margin: 0px;
+  }
+
+
+
+
+  .container-fluid {
+    display: flex;
+  }
+
+  .first-line-nav {
+    display: flex;
+    background-color: #efebe5;
+    height: 80px;
+    width: 100%;
+  }
+ 
+  .second-line-nav {
+    background-color:#776464;
+    width: 100%;
+  }
+
+
+
+  .second-line-nav a {
+    float: left;
+    color: #efebe5;
+
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .second-line-nav a:hover {
+    background-color: #efebe5;
+    color: #776464;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  
+  .text-to-right {
+    direction: rtl;
+    text-align: right;
+  }
+  .navbar {
+    padding: auto;
+  }
+  
+.navbar-brand.brand {
+    color: #ff8075;
+    font-family: baskerville, serif;
+    font-style: italic;
+    font-size: 30px;;
+    font-weight: bold;
+  }
+
+.navbar-brand.brand a:hover {
+    color: #776464 ;
+  }
+
+
+  div.greeting{
+    color: brown;
+    padding-top: 10px;
+    padding-left: 60%;
+    display: inline-block;
+  }
+
+.log-container {
+    color:  #efebe5;
+    text-align:center;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    display: inline-block;
+  }
+
+  .log-container a:hover{
+    color: #ff8075;
+  }
+
+  
+  
+.nav-link {
+    color: white;
+    font-family: 'avenir next', avenir, sans-serif;
+    font-size: 20px;
+  }
+
+
+  a.dropdown-item {
+    color: #776464;   /*for font color of individual drop down item */
+    font-size:medium;
+    text-align: left;
+    
+  }
+
+
+
+
+  .nav-link{
+    padding: 0px;
+  }
+  
+  
+  img.paws-to-hands-Logo {
+    height: 60px;
+    width: 70px;
+  }
+  img.pets-icon {
+    height: 20px;
+    padding-right: 10px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+

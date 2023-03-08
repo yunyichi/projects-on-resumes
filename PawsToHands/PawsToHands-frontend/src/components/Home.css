@@ -1,0 +1,51 @@
+h1 {
+    font-family: baskerville, serif;
+    font-style: italic;
+    font-weight: bold !important;
+}
+
+.background{
+  /* height: 800px; */
+  padding-top: 50px;
+
+
+  text-align: center; 
+	height: 500px;
+	margin: auto;
+
+}
+
+
+.species-container {
+  padding-top: 50px;
+}
+
+
+.spcies-row {
+  text-align: center;
+  padding-top: 40px;
+  display: flex;
+    align-items:center;
+}
+ 
+.species-box {
+  background-color: #776464;
+  opacity: 80%;
+  color: #efebe5;
+  margin-right: 25px;
+  font-family: 'avenir next', avenir, sans-serif;
+}
+
+.species-image {
+  width: 50px;
+  height: 50px;
+}
+
+.card-background {
+  background-color: #ebe377;
+  color: red;
+}
+
+.center {
+  text-align: center;
+}

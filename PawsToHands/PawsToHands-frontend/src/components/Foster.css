@@ -1,0 +1,39 @@
+.bigContainer{
+  display: flex;
+  justify-content: center;
+
+}
+
+label {
+  color: #776464;
+}
+
+.textPromo {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+input[type=text], input[type=email],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* text-align: center; */
+  }
+
+/* Style the submit button */
+.submit_btn {
+    width: 100%;
+    background-color:#776464;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

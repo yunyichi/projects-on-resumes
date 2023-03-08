@@ -1,0 +1,56 @@
+div.shelter-search-bar {
+  padding-top: 2%;
+}
+
+label.location-search-label {
+  width: 100px;
+  color: #776464;
+  font-family: "avenir next", avenir, sans-serif;
+}
+.location-selector {
+  width: 30rem;
+  border: none;
+}
+
+button.search-location-button {
+  margin-left: 2%;
+  width: 100px;
+  background-color: #776464;
+  border: none;
+}
+
+button.search-location-button:hover {
+  background-color: rgba(126, 93, 94, 0.5);
+  border: none;
+}
+
+div.sheltersListCard {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-color: rgba(120, 101, 102, 0.85);
+  height: 150px;
+  color: #efebe5;
+  font-weight: bold;
+}
+
+a.shelter-web-link {
+  background: #ff8075;
+  color: #776464;
+  font-family: "avenir next", avenir, sans-serif;
+  /* font-style: italic; */
+  font-size: 15px;
+  font-weight: bold;
+}
+
+a.shelter-web-link:hover {
+  background: rgba(253, 126, 115, 0.5);
+  color: #776464;
+}
+
+.smallPoster {
+  width: 312px;
+  height: 357px;
+  user-select: none;
+}

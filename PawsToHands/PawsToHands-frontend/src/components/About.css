@@ -1,0 +1,15 @@
+
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.about-title {
+    color: #ff8075;
+    font-family: baskerville, serif;
+    font-style: italic;
+    font-size: 30px;;
+    font-weight: bold;
+}

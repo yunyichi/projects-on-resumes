@@ -1,0 +1,18 @@
+
+.card {
+    margin-top: 15px;
+}
+
+.petsListCard {
+    width: 18rem;
+}
+
+.smallPoster {
+    width: 312px;
+    height: 357px;
+    user-select: none;
+}
+
+.center {
+    text-align: center;
+  }

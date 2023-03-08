@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+
+.favoritesCard {
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.favoritesPoster {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.favorite-title {
+    color: #ff8075;
+    font-family: baskerville, serif;
+    font-style: italic;
+    font-size: 30px;;
+    font-weight: bold;
+    padding-left: 3%;
+    padding-top: 10px;
+}
