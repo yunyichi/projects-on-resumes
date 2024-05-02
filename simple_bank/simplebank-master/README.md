@@ -32,7 +32,7 @@ The Simple Bank Web Server project is designed to provide a robust, secure, and 
 Key Features:
 * Secure account creation, updates, and money transfers through RESTful APIs and gRPC services.
 * Advanced PostgreSQL schema with optimized transactions to ensure data consistency and zero deadlocks.
-* Comprehensive unit testing and integration with CI/CD pipelines for streamlined deployment and maintenance.
+* Comprehensive unit testing and integration with CI/CD pipelines using Github Actions for streamlined deployment and maintenance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -44,6 +44,7 @@ This section lists the major frameworks and technologies used in the development
 * [Golang](https://golang.org/)
 * [PostgreSQL](https://www.postgresql.org/)
 * [Docker](https://www.docker.com/)
+* [Github Actions](https://docs.github.com/en/actions)
 * [AWS EKS](https://aws.amazon.com/eks/)
 * [Gin](https://gin-gonic.com/)
 * [gRPC](https://grpc.io/)
