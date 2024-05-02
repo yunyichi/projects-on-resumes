@@ -32,15 +32,18 @@ jobs:
     steps:
 
     - name: Set up Go 1.x
+      working-directory: ./simple_bank/simplebank-master/simplebank
       uses: actions/setup-go@v4
       with:
         go-version: '^1.15'
       id: go
 
     - name: Check out code into the Go module directory
+      working-directory: ./simple_bank/simplebank-master/simplebank
       uses: actions/checkout@v4
     
     - name: Install golang-migrate
+      working-directory: ./simple_bank/simplebank-master/simplebank
       run: |
         curl -L https://github.com/golang-migrate/migrate/releases/download/v4.17.1/migrate.linux-amd64.tar.gz | tar xvz
         sudo mv migrate /usr/bin/
@@ -48,9 +51,11 @@ jobs:
 
 
     - name: Run migrations
+      working-directory: ./simple_bank/simplebank-master/simplebank
       run: make migrateup
 
     - name: Get dependencies
+      working-directory: ./simple_bank/simplebank-master/simplebank
       run: |
         go get -v -t -d ./...
         if [ -f Gopkg.toml ]; then
@@ -60,4 +65,5 @@ jobs:
 
 
     - name: Test
+      working-directory: ./simple_bank/simplebank-master/simplebank
       run: make test
